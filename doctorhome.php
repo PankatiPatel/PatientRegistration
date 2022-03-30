@@ -11,8 +11,31 @@
     <link rel="stylesheet" href="./public/css/product.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
 
-<body class="min-vh-100 d-flex flex-column justify-content-between">
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+<body style="background-color:BurlyWood;" class="min-vh-100 d-flex flex-column justify-content-between">
 
 <div class="container">
         <div class="store-heading d-flex flex-column justify-content-center align-items-center">
@@ -24,7 +47,15 @@
 <br><a href='newpatient.php'>New Patient</a>
 <br><a href='findpatient.php'>Find Patient</a>
 <br><a href='updatepatient.php'>Update Patient Information</a>
-<br><a href='newapp.php'>New Appointment</a>
+<br><a href='newapp.php'>New Appointment</a><br>
+
+
+<a href='login.html'class="button button1">Logout</button>
+<button class="button button1">New Patient</button>
+<button class="button button1">Find Patient</button>
+<button class="button button1">Update Patient Information</button>
+<button class="button button1">New Appointment</button>
+
 <br>
 
 
